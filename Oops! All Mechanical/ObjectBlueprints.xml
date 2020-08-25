@@ -1,0 +1,5 @@
+<objects>
+    <object Name="Creature" Load="Merge">
+        <part Name="Roboticized" ChanceOneIn="1" />
+    </object>
+</objects>

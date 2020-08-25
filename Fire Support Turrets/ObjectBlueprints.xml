@@ -1,0 +1,20 @@
+<objects>
+    <object Name="helado_Minimods_Fire Support Turret" Inherits="HostileTurret">
+        <part Name="Render" DisplayName="{{c|{{spring-turret|fire support}} turret}}" RenderString="2" ColorString="&amp;W" Tile="Creatures/sw_rifle_turret.bmp" />
+        <part Name="Description" Short="There is a word for the actions of a thing that, while having no inherent capacity for harm in itself, supports and propagates the violence done by other things: That word is violence." />
+        <part Name="PowerSwitch" SecurityClearance="-3" />
+
+        <tag Name="DynamicObjectsTable:Deathlands_Creatures" />
+        <tag Name="DynamicObjectsTable:Ruins_Creatures" />
+        <tag Name="DynamicObjectsTable:TechTurrets" />
+        <tag Name="Tier" Value="4" />
+
+        <stat Name="AV" Value="6" />
+        <stat Name="Hitpoints" Value="35" />
+
+        <inventoryobject Blueprint="Grenade Launcher" />
+        <inventoryobject Blueprint="FireSupportGrenade1" Number="16-32" />
+        <inventoryobject Blueprint="FireSupportGrenade2" Chance="25" Number="4-8" />
+        <inventoryobject Blueprint="FireSupportGrenade3" Chance="5" Number="1-2" />
+    </object>
+</objects>

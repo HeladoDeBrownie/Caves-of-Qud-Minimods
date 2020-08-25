@@ -1,0 +1,5 @@
+<objects>
+    <object Name="Creature" Load="Merge">
+        <mutation Name="EvilTwin" />
+    </object>
+</objects>
