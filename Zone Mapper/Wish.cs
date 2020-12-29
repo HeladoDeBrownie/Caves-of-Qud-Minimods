@@ -1,4 +1,3 @@
-using static System.Environment;
 using XRL.Wish;
 using XRL.World;
 
