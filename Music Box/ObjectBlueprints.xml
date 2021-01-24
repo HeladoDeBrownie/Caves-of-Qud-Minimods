@@ -1,7 +1,7 @@
 <objects>
     <object Name="helado_Music Box_Music Player" Inherits="Item">
         <!-- This object was designed by Caelyn Sandel. -->
-        <part Name="Render" DisplayName="{{Y-B-W alternating|music player}}" RenderString="-" ColorString="&amp;B" Occluding="false" RenderIfDark="true" Tile="Items/sw_credit_wedge.bmp" DetailColor="W" />
+        <part Name="Render" DisplayName="{{Y-B-W alternation|music player}}" RenderString="-" ColorString="&amp;B" Occluding="false" RenderIfDark="true" Tile="Items/sw_credit_wedge.bmp" DetailColor="W" />
         <part Name="Physics" Category="Tools" />
         <part Name="Examiner" UnknownDisplayName="{{c|small box}}" AlternateDisplayName="small colorful box" Complexity="1" Understanding="0" />
         <part Name="Commerce" Value="10.0" />
