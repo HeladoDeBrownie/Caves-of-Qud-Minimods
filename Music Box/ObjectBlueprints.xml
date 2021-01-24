@@ -1,0 +1,15 @@
+<objects>
+    <object Name="helado_Music Box_Music Player" Inherits="Item">
+        <!-- This object was designed by Caelyn Sandel. -->
+        <part Name="Render" DisplayName="{{Y-B-W alternating|music player}}" RenderString="-" ColorString="&amp;B" Occluding="false" RenderIfDark="true" Tile="Items/sw_credit_wedge.bmp" DetailColor="W" />
+        <part Name="Physics" Category="Tools" />
+        <part Name="Examiner" UnknownDisplayName="{{c|small box}}" AlternateDisplayName="small colorful box" Complexity="1" Understanding="0" />
+        <part Name="Commerce" Value="10.0" />
+        <part Name="Description" Short="Even faded, the polymer of this rectangular device grabs the eye with its colorful shapes and patterns. An unlit readout displays a list of cryptic titles." />
+        <part Name="TinkerItem" Bits="001" CanDisassemble="true" CanBuild="true" />
+        <tag Name="Mods" Value="CommonMods,ElectronicsMods" />
+        <tag Name="Tier" Value="2" />
+
+        <part Name="helado_MusicBox_MusicPlayer" />
+    </object>
+</objects>
