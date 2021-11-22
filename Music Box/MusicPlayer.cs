@@ -104,7 +104,7 @@ namespace XRL.World.Parts
                     if (track != null)
                     {
                         XRLCore.Core?.Game?.SetBooleanGameState(MUSIC_LOCK, false);
-                        SoundManager.PlayMusic(track, crossfade: true);
+                        SoundManager.PlayMusic(track, Crossfade: true);
                         XRLCore.Core?.Game?.SetBooleanGameState(MUSIC_LOCK, true);
                         @event.RequestInterfaceExit();
                     }
@@ -120,7 +120,7 @@ namespace XRL.World.Parts
                         XRLCore.Core?.Game?.Player?.Body?.CurrentZone?.
                             FindFirstObject("ZoneMusic")?.
                             GetStringProperty("Track"),
-                        crossfade: true
+                        Crossfade: true
                     );
 
                     @event.RequestInterfaceExit();
