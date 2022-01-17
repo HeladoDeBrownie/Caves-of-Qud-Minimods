@@ -24,7 +24,8 @@ namespace XRL.World.Parts
             "Lazarus",
             "AmongTheTombs",
             "DeeperEaters",
-            "Onward"
+            "Onward",
+            "Substrate"
         };
 
         public Random RandomSource;
