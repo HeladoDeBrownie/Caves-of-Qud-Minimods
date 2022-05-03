@@ -1,5 +1,6 @@
 <objects>
     <object Name="Creature" Load="Merge">
         <part Name="Pettable" />
+        <tag Name="PreferChatToPet" />
     </object>
 </objects>
