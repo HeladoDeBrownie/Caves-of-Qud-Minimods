@@ -1,0 +1,1 @@
+Adds the ability to wish for a box of crayons guaranteed to be nanocrayons by wishing `Nanocrayons`. (Wishes ending in `s` spawn multiple. Take off the `s` if you want only one.)

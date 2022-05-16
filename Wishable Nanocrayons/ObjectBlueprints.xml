@@ -1,0 +1,6 @@
+<objects>
+    <object Name="Nanocrayons" Inherits="BoxOfCrayons">
+        <property Name="Nanocrayons" Value="1" />
+        <tag Name="ExcludeFromDynamicEncounters" />
+    </object>
+</objects>
