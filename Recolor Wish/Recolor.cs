@@ -7,12 +7,12 @@ namespace XRL.World.Parts
 
         public override bool Render(RenderEvent @event)
         {
-            if (ForegroundColor != null)
+            if (!string.IsNullOrEmpty(ForegroundColor))
             {
                 @event.ColorString = $"&{ForegroundColor}";
             }
 
-            if (DetailColor != null)
+            if (!string.IsNullOrEmpty(DetailColor))
             {
                 @event.DetailColor = DetailColor;
             }
