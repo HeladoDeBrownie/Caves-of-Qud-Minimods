@@ -1,0 +1,21 @@
+<objects>
+    <object Name="Segmented Mirthworm" Load="Merge">
+        <stat Name="Hitpoints" Value="80" />
+        <part Name="Corpse" CorpseChance="50" CorpseBlueprint="Segmented Mirthworm" />
+        <mutation Name="Burrowing" Level="5" />
+        <part Name="LeaveTrailWhileHasEffect" TrailObject="SaltyAcidPool" Effect="Burrowed" />
+        <tag Name="BleedLiquid" Value="acid-900,salt-100" />
+        <tag Name="SeveredLimbBlueprint" Value="Segmented Mirthworm" />
+        <tag Name="SeveredHeadBlueprint" Value="Segmented Mirthworm" />
+        <tag Name="SeveredFaceBlueprint" Value="Segmented Mirthworm" />
+        <tag Name="SeveredArmBlueprint" Value="Segmented Mirthworm" />
+        <tag Name="SeveredHandBlueprint" Value="Segmented Mirthworm" />
+        <tag Name="SeveredLegBlueprint" Value="Segmented Mirthworm" />
+        <tag Name="SeveredFootBlueprint" Value="Segmented Mirthworm" />
+        <tag Name="SeveredFeetBlueprint" Value="Segmented Mirthworm" />
+        <tag Name="SeveredTailBlueprint" Value="Segmented Mirthworm" />
+        <tag Name="SeveredRootsBlueprint" Value="Segmented Mirthworm" />
+        <tag Name="SeveredFinBlueprint" Value="Segmented Mirthworm" />
+        <tag Name="Restless" />
+    </object>
+</objects>
