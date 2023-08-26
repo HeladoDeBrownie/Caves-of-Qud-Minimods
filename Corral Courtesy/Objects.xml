@@ -1,0 +1,5 @@
+<objects>
+    <object Name="Gate" Load="Merge">
+        <part Name="HDBrownie_CorralCourtesy_Autoclose" />
+    </object>
+</objects>
