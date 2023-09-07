@@ -18,9 +18,9 @@ namespace XRL.World.Parts
             var door = ParentObject.GetPart<Door>();
 
             if (
-                @event.Actor.IsPlayer() &&
                 door != null &&
-                !@event.Forced
+                !@event.Forced &&
+                (@event.Actor?.IsPlayer() ?? false)
             )
             {
                 // At this moment, the player is still in the same cell as the
