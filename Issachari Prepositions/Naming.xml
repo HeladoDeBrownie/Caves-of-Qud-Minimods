@@ -1,0 +1,22 @@
+<naming>
+    <namestyles>
+        <namestyle Name="Issachari" Load="Merge">
+            <infixes>
+                <infix Name="above" />
+                <infix Name="after" />
+                <infix Name="against" />
+                <infix Name="before" />
+                <infix Name="behind" />
+                <infix Name="beside" />
+                <infix Name="despite" />
+                <infix Name="over" />
+                <infix Name="through" />
+                <infix Name="toward" />
+                <infix Name="under" />
+                <infix Name="via" />
+                <infix Name="with" />
+                <infix Name="within" />
+            </infixes>
+        </namestyle>
+    </namestyles>
+</naming>
