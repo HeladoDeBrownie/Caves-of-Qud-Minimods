@@ -6,7 +6,7 @@ using XRL.Wish; // HasWishCommand, WishCommand
 using XRL.World.Parts; // LiquidVolume
 
 [HasWishCommand]
-public static class helado_LiquidWish_WishHandler
+public static class HDBrownie_LiquidWish_WishHandler
 {
     public const string WISH_NAME = "liquid";
 
@@ -14,8 +14,7 @@ public static class helado_LiquidWish_WishHandler
     public static void HandleWish(Match match)
     {
         var liquid = match.Groups[1].Value;
-        int drams = 100;
-        int.TryParse(match.Groups[2].Value, out drams);
+        int.TryParse(match.Groups[2].Value, out int drams);
 
         var currentCell = The.Player.CurrentCell;
         var targetCell = currentCell.GetRandomLocalAdjacentCell(cell =>

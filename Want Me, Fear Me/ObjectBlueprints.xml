@@ -1,9 +1,9 @@
 <objects>
-    <object Name="helado_WantMeFearMe_Cap" Inherits="BaseHat">
+    <object Name="HDBrownie_WantMeFearMe_Cap" Inherits="BaseHat">
         <part Name="Render" DisplayName="tam of {{love|desire}} and {{putrid|revulsion}}" />
         <part Name="Physics" Weight="1" />
         <part Name="Commerce" Value="150" />
-        <part Name="helado_WantMeFearMe_Cap" />
+        <part Name="HDBrownie_WantMeFearMe_Cap" />
 
         <intproperty Name="Inorganic" Value="0" />
 

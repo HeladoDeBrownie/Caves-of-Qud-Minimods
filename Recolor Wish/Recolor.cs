@@ -1,6 +1,6 @@
 namespace XRL.World.Parts
 {
-    public class helado_RecolorWish_Recolor : IPart
+    public class HDBrownie_RecolorWish_Recolor : IPart
     {
         public string ForegroundColor;
         public string DetailColor;

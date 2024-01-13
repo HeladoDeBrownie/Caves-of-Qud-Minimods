@@ -1,7 +1,8 @@
 using XRL.Wish;
 using XRL.World;
 
-public static class helado_ZoneMapper_WishHandler
+[HasWishCommand]
+public static class HDBrownie_ZoneMapper_WishHandler
 {
     public const string WISH_NAME = "mapzone";
 

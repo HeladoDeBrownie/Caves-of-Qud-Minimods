@@ -1,5 +1,5 @@
 <objects>
-    <object Name="helado_Minimods_Fire Support Turret" Inherits="HostileTurret">
+    <object Name="HDBrownie_FirST_Fire Support Turret" Inherits="HostileTurret">
         <part Name="Render" DisplayName="{{c|{{spring-turret|fire support}} turret}}" RenderString="2" ColorString="&amp;W" Tile="Creatures/sw_rifle_turret.bmp" />
         <part Name="Description" Short="There is a word for the actions of a thing that, while having no inherent capacity for harm in itself, supports and propagates the violence done by other things: That word is violence." />
         <part Name="PowerSwitch" SecurityClearance="-3" />

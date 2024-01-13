@@ -1,14 +1,13 @@
 using System;
-using System.Collections.Generic;
 using XRL.Core;
 using XRL.UI;
 
 namespace XRL.World.Parts
 {
     [Serializable]
-    public class helado_MusicBox_MusicPlayer : IPart
+    public class HDBrownie_MusicBox_MusicPlayer : IPart
     {
-        public const string MOD_PREFIX = "helado_Music Box";
+        public const string MOD_PREFIX = "HDBrownie_Music Box";
         public const string MUSIC_LOCK = MOD_PREFIX + "_Music Lock";
 
         public static readonly string[] Tracks = {
@@ -40,7 +39,7 @@ namespace XRL.World.Parts
         public override void Attach()
         {
             RandomSource = XRL.Rules.Stat.GetSeededRandomGenerator(
-                $"{MOD_PREFIX}_{ParentObject.id}"
+                $"{MOD_PREFIX}_{ParentObject.ID}"
             );
         }
 

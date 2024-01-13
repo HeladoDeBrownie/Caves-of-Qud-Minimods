@@ -1,5 +1,5 @@
 <objects>
     <object Name="Creature" Load="Merge">
-        <part Name="helado_PetSaver_PetSaver" />
+        <part Name="HDBrownie_PetSaver_PetSaver" />
     </object>
 </objects>

@@ -60,10 +60,10 @@ namespace XRL.World.Parts
             // which does the check and then turns into `AttemptClose` if the
             // door is already open.
             var door = Door?.GetPart<Door>();
-            if (door != null && door.bOpen)
+            if (door != null && door.Open)
             {
                 door.AttemptOpen(
-                    Opener: ParentObject,
+                    Actor: ParentObject,
                     FromMove: true,
                     Silent: true
                 );

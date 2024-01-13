@@ -1,7 +1,7 @@
 namespace XRL.World.Parts
 {
     [System.Serializable]
-    public class helado_PetSaver_PetSaver : IPart
+    public class HDBrownie_PetSaver_PetSaver : IPart
     {
         public override bool WantEvent(int id, int _)
         {

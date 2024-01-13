@@ -3,7 +3,7 @@ using XRL.Wish;
 using XRL.World;
 
 [HasWishCommand]
-public static class helado_RenameYourself_WishHandler
+public static class HDBrownie_RenameYourself_WishHandler
 {
     public const string WISH_NAME = "renameme";
 

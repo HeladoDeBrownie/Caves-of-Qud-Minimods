@@ -3,7 +3,7 @@ using XRL.Wish;
 using XRL.World.Parts;
 using XRL.World.Parts.Mutation;
 
-public class helado_MutationBGone_Wish
+public class HDBrownie_MutationBGone_Wish
 {
     public const string WishName = "mutationbgone";
 
