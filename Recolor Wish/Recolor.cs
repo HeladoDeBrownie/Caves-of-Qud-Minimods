@@ -5,16 +5,19 @@ namespace XRL.World.Parts
         public string ForegroundColor;
         public string DetailColor;
 
+        // XRL.Parts.Mutation.PhotosyntheticSkin does this same thing.
+        public static readonly int ICON_COLOR_PRIORITY = 80;
+
         public override bool Render(RenderEvent @event)
         {
             if (!string.IsNullOrEmpty(ForegroundColor))
             {
-                @event.ColorString = $"&{ForegroundColor}";
+                @event.ApplyColors($"&{ForegroundColor}", ICON_COLOR_PRIORITY);
             }
 
             if (!string.IsNullOrEmpty(DetailColor))
             {
-                @event.DetailColor = DetailColor;
+                @event.ApplyDetailColor(DetailColor, ICON_COLOR_PRIORITY);
             }
 
             return true;
